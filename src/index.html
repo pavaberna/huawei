@@ -60,6 +60,63 @@
 						<div>
 							<h2
 								class="text-base font-semibold leading-7 text-gray-900">
+								Adatok
+							</h2>
+							<hr />
+
+							<div
+								class="mt-6 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+								<div class="sm:col-span-2">
+									<label
+										for="purchase-date"
+										class="block text-sm font-medium leading-6 text-gray-900">
+										Vásárlás napja (év.hónap.nap)
+									</label>
+									<div class="mt-2">
+										<input
+											type="date"
+											name="purchase-date"
+											id="purchase-date"
+											autocomplete="address-level1"
+											class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 px-2" />
+									</div>
+								</div>
+								<div class="sm:col-span-2">
+									<label
+										for="imei"
+										class="block text-sm font-medium leading-6 text-gray-900">
+										IMEI szám (imei1)
+									</label>
+									<div class="mt-2">
+										<input
+											type="text"
+											name="imei"
+											id="imei"
+											autocomplete="address-level1"
+											class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 px-2" />
+									</div>
+								</div>
+								<div class="sm:col-span-2">
+									<label
+										for="invoice"
+										class="block text-sm font-medium leading-6 text-gray-900">
+										Számla (Max 5 MB)
+									</label>
+									<div class="mt-2">
+										<input
+											type="file"
+											name="invoice"
+											id="invoice"
+											autocomplete="address-level1"
+											class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 px-2" />
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div>
+							<h2
+								class="text-base font-semibold leading-7 text-gray-900">
 								Szállítási adatok
 							</h2>
 							<hr />
@@ -142,9 +199,9 @@
 										</label>
 										<div class="mt-2">
 											<input
+												type="tel"
 												id="phone"
 												name="phone"
-												type="tel"
 												autocomplete="tel"
 												class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 px-2" />
 										</div>
@@ -194,51 +251,6 @@
 											type="text"
 											name="region"
 											id="region"
-											autocomplete="address-level1"
-											class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 px-2" />
-									</div>
-								</div>
-								<div class="sm:col-span-2">
-									<label
-										for="purchase-date"
-										class="block text-sm font-medium leading-6 text-gray-900">
-										Vásárlás napja (év.hónap.nap)
-									</label>
-									<div class="mt-2">
-										<input
-											type="date"
-											name="purchase-date"
-											id="purchase-date"
-											autocomplete="address-level1"
-											class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 px-2" />
-									</div>
-								</div>
-								<div class="sm:col-span-2">
-									<label
-										for="imei"
-										class="block text-sm font-medium leading-6 text-gray-900">
-										IMEI szám (imei1)
-									</label>
-									<div class="mt-2">
-										<input
-											type="text"
-											name="imei"
-											id="imei"
-											autocomplete="address-level1"
-											class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 px-2" />
-									</div>
-								</div>
-								<div class="sm:col-span-2">
-									<label
-										for="invoice"
-										class="block text-sm font-medium leading-6 text-gray-900">
-										Számla (Max 5 MB)
-									</label>
-									<div class="mt-2">
-										<input
-											type="file"
-											name="invoice"
-											id="invoice"
 											autocomplete="address-level1"
 											class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 px-2" />
 									</div>

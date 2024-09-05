@@ -770,6 +770,41 @@ video {
   padding-right: 0.5rem;
 }
 
+.py-\[1\.75\] {
+  padding-top: 1.75;
+  padding-bottom: 1.75;
+}
+
+.py-\[1\2c 75\] {
+  padding-top: 1,75;
+  padding-bottom: 1,75;
+}
+
+.py-\[0\.6rem\] {
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+
+.py-\[0\.7rem\] {
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+}
+
+.py-\[0\.5rem\] {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.py-\[0\.4rem\] {
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+}
+
+.py-\[0\.45rem\] {
+  padding-top: 0.45rem;
+  padding-bottom: 0.45rem;
+}
+
 .pb-2 {
   padding-bottom: 0.5rem;
 }
